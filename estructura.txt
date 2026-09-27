@@ -1,0 +1,35 @@
+umariano-api/
+├── src/
+│   ├── main.ts
+│   ├── app.module.ts
+│   ├── common/
+│   │   └── filters/
+│   │       └── http-exception.filter.ts
+│   ├── students/
+│   │   ├── dto/
+│   │   │   ├── create-student.dto.ts
+│   │   │   └── update-student.dto.ts
+│   │   ├── entities/
+│   │   │   └── student.entity.ts
+│   │   ├── students.controller.ts
+│   │   ├── students.service.ts
+│   │   └── students.module.ts
+│   ├── courses/
+│   │   ├── dto/
+│   │   │   ├── create-course.dto.ts
+│   │   │   └── update-course.dto.ts
+│   │   ├── entities/
+│   │   │   └── course.entity.ts
+│   │   ├── courses.controller.ts
+│   │   ├── courses.service.ts
+│   │   └── courses.module.ts
+│   └── enrollments/
+│       ├── dto/
+│       │   └── create-enrollment.dto.ts
+│       ├── entities/
+│       │   └── enrollment.entity.ts
+│       ├── enrollments.controller.ts
+│       ├── enrollments.service.ts
+│       └── enrollments.module.ts
+├── package.json
+└── tsconfig.json
